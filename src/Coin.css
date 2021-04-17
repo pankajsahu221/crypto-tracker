@@ -1,0 +1,32 @@
+/* .coins{
+    overflow-x: scroll;
+} */
+.coin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 900px;
+    
+    border-bottom: 1px solid #d7d7d7;
+}
+.coin__logo{
+    object-fit: cover;
+    height: 30px;
+}
+.coin__name,
+.coin__symbol{
+    font-size: 18px;
+}
+.coin__symbol{
+    font-weight: 700;
+}
+.coin__det2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cn{
+    margin: 0 10px;
+}
