@@ -35,7 +35,7 @@ function App() {
         <div className="coin__search">
            <h3 className="coin__text">Search a currency</h3>
            <form>
-               <input type="text" className="coin__input" placeholder="Seach " value={search} onChange={handleChange}/>
+               <input type="text" className="coin__input" placeholder="Search " value={search} onChange={handleChange}/>
            </form>
         </div>
 
